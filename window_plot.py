@@ -21,8 +21,8 @@ b[:zi] = b[-zi:] = 0
 name = 'Boxcar - zero fraction=%.2f' % zfrac
 winspect(b, fig01, name)
 
-winspect(sig.hanning(npts), fig01, 'Hanning')
-winspect(sig.bartlett(npts), fig01, 'Bartlett')
-winspect(sig.barthann(npts), fig01, 'Modified Bartlett-Hann')
+#winspect(sig.hanning(npts), fig01, 'Hanning')
+#winspect(sig.bartlett(npts), fig01, 'Bartlett')
+#winspect(sig.barthann(npts), fig01, 'Modified Bartlett-Hann')
 
 plt.show()

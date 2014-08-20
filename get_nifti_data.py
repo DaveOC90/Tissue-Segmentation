@@ -17,4 +17,4 @@ def get_nifti_data(ipfile):
 	## Get Header
 	img_header=ip_img.get_header()
 	
-	return img_data, img_shape, img_affine, img_header
+	return img_data, img_shape, img_aff, img_header
